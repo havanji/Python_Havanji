@@ -118,7 +118,7 @@ else:
 print("---г---")
 x = 2
 y = 1
-if x * y != 0 and y >x:
+if x * y != 0 and y > x:
     print(True)
 else:
     print(False)
@@ -492,7 +492,6 @@ print(not (a or not b and c))
 print(a and not(b or not c))
 print(not (not a or b and c))
 
-
 print("-----3.22-----")
 print("---TTT---")
 x = True
@@ -519,7 +518,7 @@ print(y or (x and not y or z))
 print(not (not x and y or z))
 
 print("---TTF---")
-x= True
+x = True
 y = True
 z = False
 print(not ((x or not y) and z))
@@ -649,7 +648,7 @@ print(x and not (not y or z) or y)
 print(not (x or y and z) or not x)
 
 print("---TTF---")
-x= True
+x = True
 y = True
 z = False
 print(not(y or not x and z) or z)
@@ -845,7 +844,7 @@ if x > 3 and y < 10:
 else:
     print(False)
 print("е")
-if not x >2:
+if not x > 2:
     print(True)
 else:
     print(False)
